@@ -1,0 +1,56 @@
+.profile-container{
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+}
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 330px;
+    
+    
+}
+.user-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.edit-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: -60px;
+}
+
+.user-feed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: -250px;
+}
+
+
+/* MyProfile.css 파일 */
+
+.grid-container {
+ display: grid;
+ grid-template-rows: repeat(4, minmax(200px, 1fr)); /* 최소 150px 크기, 가능한한 1fr 채우기 */
+ gap: 1px; /* 아이템 간격 조정 */
+}
+  
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.grid-item.selected {
+    box-shadow: 0 4px 6px rgba(3, 3, 3, 0.7); /* 선택된 포스트에만 그림자 적용 */
+}
+
+  
+.delete-button {
+   display: flex;
+   margin-top: 10px;
+  }
